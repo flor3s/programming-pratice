@@ -1,4 +1,5 @@
-# NODE CLASS AND SEARCH METHODS #
+# NODE CLASS AND SEARCH METHODS
+# Linked list creation, then bfs, dfs, and dfs recursive searches
 
 class Node
   attr_accessor :value, :parent, :left, :right, :tree
@@ -87,7 +88,7 @@ def build_tree(arr)
         
     until placed == true
     # i decided not to allow nodes with duplicate values because doing so would complicate the breadth and depth 
-    # first searches beyond the scope of what it looks like TOP wants. however, if you want to, you can store the
+    # first searches beyond the scope of my coursework. however, if you want to, you can store the
     # number of occurrences in the node with that value in a local variable and then just have the searches continue 
     # until they find the correct @value and @occurrences. thus:
       if parent.value == value
