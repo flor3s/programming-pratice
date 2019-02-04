@@ -1,3 +1,3 @@
 ## Programming practice
 
-Algorithm implementations 
+Algorithm implementations/Programming problems
